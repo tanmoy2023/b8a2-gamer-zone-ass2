@@ -1,0 +1,155 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+nav{
+    background-color: #FFF;
+}
+.nav-container{
+    justify-content: space-between;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 1920px;
+    margin: 0 auto;
+    border: 1px solid red;
+
+}
+
+.but-container{
+    text-decoration: none;
+    border-radius: 35px;
+    background: #FF42A5;
+    border: 0;
+    color: white;
+    font-size: 10px;
+    padding: 14px 15px;
+}
+.but-container-go{
+    text-decoration: none;
+    border-radius: 35px;
+    background:#4EC5F7;
+    border: 0;
+    color: white;
+    font-size: 10px;
+    padding: 14px 15px;
+}
+
+
+.logo-container{
+    width: 50%;
+    margin-right: 150px ;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(0, 255, 34);
+}
+
+.logo-container img{
+    width: 86px;
+    height: 40px;
+    margin-right: 85px ;
+    margin-left: 240px;
+}
+
+.logo-container p{
+    font-size: 20px;
+}
+
+.nav-items-container{
+
+    width: 50%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-items-container a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin-left: 40px;
+}
+
+.g-color{
+    color: #FF42A5 ;
+}
+
+/* main page 1 */
+.main-text2 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+
+}
+.main-container{
+    display: flex;
+    margin-left: 244px;
+}
+
+.main-text{
+
+    font-size: 20px;
+    color: black;
+    }
+
+.goat-text{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid red;
+}
+
+.fast-image{
+    width: 85%;
+}
+
+/* main page 2 */
+
+.main2-container{
+    display: flex;
+    align-items: center;
+    
+}
+
+.secend-image{
+    max-width: 50%;
+    max-height: 50%;
+
+}
+
+.color-gamer{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* main page 3 */
+.game-list{
+    display: flex;
+    align-items: center;
+}
+
+.game-text{
+    display: flex;
+    align-items: center;
+}
+
+/* 9game list */
+
+.games-continer-list{
+    display: flex;
+    align-items: center;
+}
+
+
+/* Footer */
+.baground-color{
+    text-align: center;
+    background-color: black;
+    color: rgb(219, 5, 5);
+    border: 1px solid red;
+    
+}
