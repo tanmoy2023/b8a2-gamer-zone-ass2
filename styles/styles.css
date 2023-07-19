@@ -84,7 +84,9 @@ nav{
 }
 .main-container{
     display: flex;
-    margin-left: 244px;
+    width: auto;
+    height: 550px;
+    border: 1px solid blueviolet;
 }
 
 .main-text{
@@ -102,46 +104,90 @@ nav{
 }
 
 .fast-image{
-    width: 85%;
+    width: 600px;
+    height: 550px;
+        
 }
 
 /* main page 2 */
 
+.main-container-style{
+   
+    justify-content: space-between;
+}
+
 .main2-container{
     display: flex;
-    align-items: center;
+    width: auto;
+    height: 650px;
+    border: 1px solid rgb(245, 3, 104);
     
 }
 
-.secend-image{
-    max-width: 50%;
-    max-height: 50%;
-
+.sec-image{
+    width: 100px;
+    height: 150px;
 }
+
 
 .color-gamer{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    border: 1px solid rgb(245, 3, 104);
+   
 }
 
 /* main page 3 */
-.game-list{
-    display: flex;
-    align-items: center;
-}
 
+.game-box-size{
+    width: 100%;
+    height: auto;
+}
 .game-text{
     display: flex;
     align-items: center;
 }
 
+.game-list{
+    background-position: 100%;
+    display: flex;
+    border: 2px dashed tomato;
+    width:auto;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid rgb(245, 3, 104);
+}
+.game-list img{
+    width: 242px;
+    height: 300px;
+}
+
+
+
+
 /* 9game list */
 
 .games-continer-list{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid tomato;
+}
+.games-continer-box{
     display: flex;
     align-items: center;
+    justify-content: center;
+    border: 2px solid red;
+}
+.games-continer-box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid blue;
+
 }
 
 
