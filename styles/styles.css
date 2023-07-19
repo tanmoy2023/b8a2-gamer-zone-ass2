@@ -13,8 +13,7 @@ nav{
     align-items: center;
     max-width: 1920px;
     margin: 0 auto;
-    border: 1px solid red;
-
+    padding: 0 10%;
 }
 
 .but-container{
@@ -39,17 +38,9 @@ nav{
 
 .logo-container{
     width: 50%;
-    margin-right: 150px ;
     display: flex;
+    gap: 15px;
     align-items: center;
-    border: 1px solid rgb(0, 255, 34);
-}
-
-.logo-container img{
-    width: 86px;
-    height: 40px;
-    margin-right: 85px ;
-    margin-left: 240px;
 }
 
 .logo-container p{
@@ -84,9 +75,14 @@ nav{
 }
 .main-container{
     display: flex;
+    align-items: center;
     width: auto;
     height: 550px;
-    border: 1px solid blueviolet;
+    padding: 20px 10%;
+}
+.text-button {
+    width: 50%;
+    padding: 15px;
 }
 
 .main-text{
@@ -100,7 +96,6 @@ nav{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    border: 1px solid red;
 }
 
 .fast-image{
@@ -111,22 +106,30 @@ nav{
 
 /* main page 2 */
 
-.main-container-style{
-   
-    justify-content: space-between;
+.text-wrap1{
+    word-wrap: break-word;
+    width: 500px;
 }
 
-.main2-container{
-    display: flex;
-    width: auto;
-    height: 650px;
-    border: 1px solid rgb(245, 3, 104);
-    
+.main-container-style{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 450px;
+    padding: 0 10%;
+}
+
+.text-container{
+    width: 35%;
 }
 
 .sec-image{
-    width: 100px;
-    height: 150px;
+    width: 100%;
+    /* height: 150px; */
+}
+
+.sec-image img {
+    width: 100%;
 }
 
 
@@ -135,7 +138,6 @@ nav{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    border: 1px solid rgb(245, 3, 104);
    
 }
 
@@ -153,41 +155,72 @@ nav{
 .game-list{
     background-position: 100%;
     display: flex;
-    border: 2px dashed tomato;
     width:auto;
     height: 400px;
     display: flex;
     justify-content: space-evenly;
-    border: 1px solid rgb(245, 3, 104);
 }
 .game-list img{
     width: 242px;
     height: 300px;
 }
 
+.text-image-2{
+display: flex;
+justify-content: space-between;
+padding: 0 10%;
+height: 600px;
+padding: 50px 0;
+}
+.img-container {
+    width: 50%;
+    position: relative;
+}
+.img-container img {
+    width: 100%;
+}
+.big-img-div {
+    height: 60%;
+    padding: 10%;
+}
 
+.big-img {
+    width: 50%;
+}
+.second-img-div {
+    position: absolute;
+    bottom:-70px;
+    left: -70px;
+    width: 40%;
+}
+.second-img-div img {
+    width: 100%;
+}
 
 
 /* 9game list */
+
+.button-img {
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+}
 
 .games-continer-list{
     display: block;
     align-items: center;
     justify-content: space-between;
-    border: 2px solid tomato;
+    padding: 4% 10%;
 }
 .games-continer-box{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid red;
 }
 .games-continer-box2{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid blue;
-
 }
 
 
