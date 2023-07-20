@@ -148,12 +148,12 @@ nav{
     width: 100%;
     height: auto;
     justify-content: space-evenly;
-    border: 1px solid red;
+
 }
 .game-text-online{
     align-items: center;
     display:flex ;
-    border: 1px solid red;
+
 }
 
 .game-list{
@@ -176,16 +176,7 @@ nav{
     height: 600px;
     padding: 50px 0;
 }
-.text-image-2 p{
-
-
-    }
-.text-container-3rd{
-
-
-
-    border: 1px solid red;
-}    
+  
 
 .img-container {
     width: 50%;
